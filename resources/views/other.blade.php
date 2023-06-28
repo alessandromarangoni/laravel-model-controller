@@ -6,9 +6,7 @@
     <div class="row g-4">
         <div class="col">
             <div>
-                @foreach ($movies as $item)
-                    {{$item -> title}}
-                @endforeach
+            
             </div>
         </div>
     </div>

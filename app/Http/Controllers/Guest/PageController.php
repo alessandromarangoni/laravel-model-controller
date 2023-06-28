@@ -4,8 +4,7 @@ namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use app\Models\Movie;
-use PHPUnit\TextUI\XmlConfiguration\CodeCoverage\Report\Php;
+use App\Models\Movie;
 
 class PageController extends Controller
 {
@@ -13,6 +12,6 @@ class PageController extends Controller
         
         $movies = Movie::all();
 
-        return view('other', compact('movies'));
+        return view('welcome', compact('movies'));
     }
 }
