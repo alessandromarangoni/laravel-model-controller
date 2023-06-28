@@ -6,7 +6,9 @@
     <div class="row g-4">
         <div class="col">
             <div>
-                <p>This is another page, with a different content for sure</p>
+                @foreach ($movies as $item)
+                    {{$item -> title}}
+                @endforeach
             </div>
         </div>
     </div>
