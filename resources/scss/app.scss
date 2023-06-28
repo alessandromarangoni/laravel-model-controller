@@ -24,19 +24,22 @@ footer {
 }
 
 header img.logo {
-    height: 2rem;
+    height: 3rem;
 }
 
 .card{
     background-color: #ffffff15;
     color: white;
+    img{
+        height: 200px;
+    }
 }
 .list-group-item{
     background-color: #ffffffd7;
     border-color: black;
 }
 a{
-    max-width: 20%;
+    max-width: calc(100% / 4);
     text-decoration: none;
     margin-top: 2rem;
 }
